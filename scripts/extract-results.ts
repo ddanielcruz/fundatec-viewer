@@ -8,7 +8,7 @@ interface SelectValue {
   label: string;
 }
 
-interface Record {
+export interface Record {
   specialty: string;
   name: string;
   notaTO: number;
