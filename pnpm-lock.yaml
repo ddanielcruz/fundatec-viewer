@@ -32,6 +32,12 @@ importers:
       '@radix-ui/react-tabs':
         specifier: ^1.1.2
         version: 1.1.2(@types/react-dom@18.3.5(@types/react@18.3.17))(@types/react@18.3.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@tanstack/react-virtual':
+        specifier: ^3.11.2
+        version: 3.11.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@types/react-autosuggest':
+        specifier: ^10.1.11
+        version: 10.1.11
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -47,6 +53,9 @@ importers:
       react:
         specifier: ^18.3.1
         version: 18.3.1
+      react-autosuggest:
+        specifier: ^10.1.0
+        version: 10.1.0(react@18.3.1)
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
@@ -1124,6 +1133,9 @@ packages:
   '@types/prop-types@15.7.14':
     resolution: {integrity: sha512-gNMvNH49DJ7OJYv+KAKn0Xp45p8PLl6zo2YnvDIbTd4J6MER2BmWN49TG7n9LvkyihINxeKW8+3bfS2yDC9dzQ==}
 
+  '@types/react-autosuggest@10.1.11':
+    resolution: {integrity: sha512-lneJrX/5TZJzKHPJ6UuUjsh9OfeyQHKYEVHyBh5Y7LeRbCZxyIsjBmpxdPy1iH++Ger0qcyW+phPpYH+g3naLA==}
+
   '@types/react-dom@18.3.5':
     resolution: {integrity: sha512-P4t6saawp+b/dFrUr2cvkVsfvPguwsxtH6dNIYRllMsefqFzkZk5UIjzyDOv5g1dXIPdG4Sp1yCR4Z6RCUsG/Q==}
     peerDependencies:
@@ -1535,6 +1547,9 @@ packages:
   es-to-primitive@1.3.0:
     resolution: {integrity: sha512-w+5mJ3GuFL+NjVtJlvydShqE1eN3h3PbI7/5LAsYJP/2qtuMXjfL2LpHSRqo4b4eSF5K/DH1JXKUAHSB2UW50g==}
     engines: {node: '>= 0.4'}
+
+  es6-promise@4.2.8:
+    resolution: {integrity: sha512-HJDGx5daxeIvxdBxvG2cb9g4tEvwIk3i8+nhX0yGrYmZUzbkdg8QbDevheDB8gd0//uPj4c1EQua8Q+MViT0/w==}
 
   esbuild@0.24.0:
     resolution: {integrity: sha512-FuLPevChGDshgSicjisSooU0cemp/sGXR841D5LHMB7mTVOmsEHcAxaH3irL53+8YDIeVNQEySh4DaYU/iuPqQ==}
@@ -2093,6 +2108,10 @@ packages:
     resolution: {integrity: sha512-bdok/XvKII3nUpklnV6P2hxtMNrCboOjAcyBuQnWEhO665FwrSNRxU+AqpsyvO6LgGYPspN+lu5CLtw4jPRKNA==}
     engines: {node: '>=0.10.0'}
 
+  object-assign@3.0.0:
+    resolution: {integrity: sha512-jHP15vXVGeVh1HuaA2wY6lxk+whK/x4KBG88VXeRma7CCun7iGD5qPc4eYykQ9sdQvg8jkwFKsSxHln2ybW3xQ==}
+    engines: {node: '>=0.10.0'}
+
   object-assign@4.1.1:
     resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
     engines: {node: '>=0.10.0'}
@@ -2250,6 +2269,9 @@ packages:
     resolution: {integrity: sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==}
     engines: {node: '>=0.4.0'}
 
+  prop-types@15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
+
   proxy-agent@6.5.0:
     resolution: {integrity: sha512-TmatMXdr2KlRiA2CyDu8GqR8EjahTG3aY3nXjdzFyoZbmB8hrBsTyMezhULIXKnC0jpfjlmiZ3+EaCzoInSu/A==}
     engines: {node: '>= 14'}
@@ -2279,10 +2301,18 @@ packages:
   queue-tick@1.0.1:
     resolution: {integrity: sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==}
 
+  react-autosuggest@10.1.0:
+    resolution: {integrity: sha512-/azBHmc6z/31s/lBf6irxPf/7eejQdR0IqnZUzjdSibtlS8+Rw/R79pgDAo6Ft5QqCUTyEQ+f0FhL+1olDQ8OA==}
+    peerDependencies:
+      react: '>=16.3.0'
+
   react-dom@18.3.1:
     resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
       react: ^18.3.1
+
+  react-is@16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
   react-remove-scroll-bar@2.3.8:
     resolution: {integrity: sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==}
@@ -2323,6 +2353,9 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
+
+  react-themeable@1.1.0:
+    resolution: {integrity: sha512-kl5tQ8K+r9IdQXZd8WLa+xxYN04lLnJXRVhHfdgwsUJr/SlKJxIejoc9z9obEkx1mdqbTw1ry43fxEUwyD9u7w==}
 
   react@18.3.1:
     resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
@@ -2381,6 +2414,9 @@ packages:
   scheduler@0.23.2:
     resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
 
+  section-iterator@2.0.0:
+    resolution: {integrity: sha512-xvTNwcbeDayXotnV32zLb3duQsP+4XosHpb/F+tu6VzEZFmIjzPdNk6/O+QOOx5XTh08KL2ufdXeCO33p380pQ==}
+
   semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
     engines: {node: '>=10'}
@@ -2393,6 +2429,9 @@ packages:
   set-function-name@2.0.2:
     resolution: {integrity: sha512-7PGFlmtwsEADb0WYyvCMa1t+yke6daIG4Wirafur5kcf+MhUnPms1UeR0CKQdTZD81yESwMHbtn+TR+dMviakQ==}
     engines: {node: '>= 0.4'}
+
+  shallow-equal@1.2.1:
+    resolution: {integrity: sha512-S4vJDjHHMBaiZuT9NPb616CSmLf618jawtv3sufLl6ivK8WocjAo58cXwbRV1cgqxH0Qbv+iUt6m05eqEa2IRA==}
 
   shebang-command@2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
@@ -3647,6 +3686,10 @@ snapshots:
 
   '@types/prop-types@15.7.14': {}
 
+  '@types/react-autosuggest@10.1.11':
+    dependencies:
+      '@types/react': 18.3.17
+
   '@types/react-dom@18.3.5(@types/react@18.3.17)':
     dependencies:
       '@types/react': 18.3.17
@@ -4159,6 +4202,8 @@ snapshots:
       is-callable: 1.2.7
       is-date-object: 1.1.0
       is-symbol: 1.1.1
+
+  es6-promise@4.2.8: {}
 
   esbuild@0.24.0:
     optionalDependencies:
@@ -4751,6 +4796,8 @@ snapshots:
 
   normalize-range@0.1.2: {}
 
+  object-assign@3.0.0: {}
+
   object-assign@4.1.1: {}
 
   object-hash@3.0.0: {}
@@ -4901,6 +4948,12 @@ snapshots:
 
   progress@2.0.3: {}
 
+  prop-types@15.8.1:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+
   proxy-agent@6.5.0:
     dependencies:
       agent-base: 7.1.3
@@ -4954,11 +5007,22 @@ snapshots:
 
   queue-tick@1.0.1: {}
 
+  react-autosuggest@10.1.0(react@18.3.1):
+    dependencies:
+      es6-promise: 4.2.8
+      prop-types: 15.8.1
+      react: 18.3.1
+      react-themeable: 1.1.0
+      section-iterator: 2.0.0
+      shallow-equal: 1.2.1
+
   react-dom@18.3.1(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
       react: 18.3.1
       scheduler: 0.23.2
+
+  react-is@16.13.1: {}
 
   react-remove-scroll-bar@2.3.8(@types/react@18.3.17)(react@18.3.1):
     dependencies:
@@ -4997,6 +5061,10 @@ snapshots:
       tslib: 2.8.1
     optionalDependencies:
       '@types/react': 18.3.17
+
+  react-themeable@1.1.0:
+    dependencies:
+      object-assign: 3.0.0
 
   react@18.3.1:
     dependencies:
@@ -5089,6 +5157,8 @@ snapshots:
     dependencies:
       loose-envify: 1.4.0
 
+  section-iterator@2.0.0: {}
+
   semver@7.6.3: {}
 
   set-function-length@1.2.2:
@@ -5106,6 +5176,8 @@ snapshots:
       es-errors: 1.3.0
       functions-have-names: 1.2.3
       has-property-descriptors: 1.0.2
+
+  shallow-equal@1.2.1: {}
 
   shebang-command@2.0.0:
     dependencies:
