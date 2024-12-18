@@ -1,4 +1,4 @@
-import { readFile } from 'node:fs/promises';
+import recordsData from './records.json';
 
 export type Record = {
   name: string;
@@ -9,56 +9,37 @@ export type Record = {
   ranking: number;
 };
 
+type RecordJSON = {
+  specialty: string;
+  name: string;
+  notaTO: number;
+  programaGoverno: boolean;
+  notaFinal: number;
+  ranking: number;
+};
+
 export class RecordsRepository {
   private records: Record[] = [];
   private specialtyIndex: Map<string, Record[]> = new Map();
   private nameIndex: Map<string, Record[]> = new Map();
 
-  static async load(): Promise<RecordsRepository> {
-    const instance = new RecordsRepository();
-    await instance.loadFromCSV();
-    return instance;
-  }
+  constructor() {
+    for (const recordJson of recordsData as RecordJSON[]) {
+      const record: Record = {
+        name: recordJson.name,
+        specialty: recordJson.specialty,
+        examScore: recordJson.notaTO,
+        finalScore: recordJson.notaFinal,
+        governmentProgram: recordJson.programaGoverno,
+        ranking: recordJson.ranking,
+      };
 
-  private async loadFromCSV() {
-    try {
-      const content = await readFile('data/records.csv', 'utf-8');
-      const lines = content.split('\n');
-
-      // Skip header
-      for (let i = 1; i < lines.length; i++) {
-        const line = lines[i];
-        if (!line.trim()) continue;
-
-        const [specialty, name, examScore, governmentProgram, finalScore, ranking] =
-          line.split(';');
-
-        const record: Record = {
-          specialty,
-          name,
-          examScore: parseFloat(examScore.replace(',', '.')),
-          governmentProgram: governmentProgram === 'Sim',
-          finalScore: parseFloat(finalScore.replace(',', '.')),
-          ranking: parseInt(ranking, 10),
-        };
-
-        this.records.push(record);
-
-        // Index by specialty
-        const specialtyRecords = this.specialtyIndex.get(specialty) || [];
-        specialtyRecords.push(record);
-        this.specialtyIndex.set(specialty, specialtyRecords);
-
-        // Index by name
-        const nameRecords = this.nameIndex.get(name) || [];
-        nameRecords.push(record);
-        this.nameIndex.set(name, nameRecords);
-      }
-
-      console.log(`Loaded ${this.records.length} records with indexes`);
-    } catch (error) {
-      console.error('Error loading records:', error);
-      throw error;
+      this.records.push(record);
+      this.specialtyIndex.set(record.specialty, [
+        ...(this.specialtyIndex.get(record.specialty) || []),
+        record,
+      ]);
+      this.nameIndex.set(record.name, [...(this.nameIndex.get(record.name) || []), record]);
     }
   }
 
@@ -82,6 +63,10 @@ export class RecordsRepository {
 
   getAllSpecialties(): string[] {
     return Array.from(this.specialtyIndex.keys()).sort();
+  }
+
+  getAllNames(): string[] {
+    return Array.from(this.nameIndex.keys()).sort();
   }
 
   getRecordsCount(): number {

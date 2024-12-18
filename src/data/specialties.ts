@@ -1,4 +1,4 @@
-import specialtiesData from '../../data/specialties.json';
+import specialtiesData from './specialties.json';
 
 export type Specialty = {
   id: string;

@@ -1,0 +1,1502 @@
+[
+  {
+    "value": "60820",
+    "label": "ACSC - Hospital Nossa Senhora da Conceição - Anestesiologia"
+  },
+  {
+    "value": "60821",
+    "label": "ACSC - Hospital Nossa Senhora da Conceição - Cirurgia Geral"
+  },
+  {
+    "value": "60822",
+    "label": "ACSC - Hospital Nossa Senhora da Conceição - Clínica Médica"
+  },
+  {
+    "value": "60817",
+    "label": "ACSC - Hospital Nossa Senhora da Conceição - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "60818",
+    "label": "ACSC - Hospital Nossa Senhora da Conceição - Medicina Intensiva"
+  },
+  {
+    "value": "60819",
+    "label": "ACSC - Hospital Nossa Senhora da Conceição - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61363",
+    "label": "Associação Dr. Bartholomeu Tacchini - Hospital Tacchini - Clínica Médica"
+  },
+  {
+    "value": "61362",
+    "label": "Associação Dr. Bartholomeu Tacchini - Hospital Tacchini - Pediatria"
+  },
+  {
+    "value": "61914",
+    "label": "Associação Hospital de Caridade de Ijuí - Cirurgia Geral"
+  },
+  {
+    "value": "61913",
+    "label": "Associação Hospital de Caridade de Ijuí - Clínica Médica"
+  },
+  {
+    "value": "61918",
+    "label": "Associação Hospital de Caridade de Ijuí - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61917",
+    "label": "Associação Hospital de Caridade de Ijuí - Pediatria"
+  },
+  {
+    "value": "61916",
+    "label": "Associação Hospital de Caridade de Ijuí - Psiquiatria"
+  },
+  {
+    "value": "61915",
+    "label": "Associação Hospital de Caridade de Ijuí - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61431",
+    "label": "Associação Hospitalar Beneficente São Vicente Paulo - Clínica Kozma - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61865",
+    "label": "Associação Hospitalar Lenoir Vargas Ferreira - Hospital Regional do Oeste - Clínica Médica"
+  },
+  {
+    "value": "61843",
+    "label": "Associação Hospitalar Lenoir Vargas Ferreira - Hospital Regional do Oeste - Medicina Intensiva"
+  },
+  {
+    "value": "60774",
+    "label": "Associação Hospitalar São José - Cirurgia Geral"
+  },
+  {
+    "value": "60773",
+    "label": "Associação Hospitalar São José - Clínica Médica"
+  },
+  {
+    "value": "61375",
+    "label": "Associação Hospitalar Vila Nova - Cirurgia Geral"
+  },
+  {
+    "value": "61374",
+    "label": "Associação Hospitalar Vila Nova - Clínica Médica"
+  },
+  {
+    "value": "61376",
+    "label": "Associação Hospitalar Vila Nova - Medicina Intensiva"
+  },
+  {
+    "value": "61373",
+    "label": "Associação Hospitalar Vila Nova - Psiquiatria"
+  },
+  {
+    "value": "61299",
+    "label": "Associação Pró Ensino em Santa Cruz (APESC) - Cirurgia Geral"
+  },
+  {
+    "value": "61300",
+    "label": "Associação Pró Ensino em Santa Cruz (APESC) - Clínica Médica"
+  },
+  {
+    "value": "61303",
+    "label": "Associação Pró Ensino em Santa Cruz (APESC) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61302",
+    "label": "Associação Pró Ensino em Santa Cruz (APESC) - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61304",
+    "label": "Associação Pró Ensino em Santa Cruz (APESC) - Medicina Intensiva"
+  },
+  {
+    "value": "61301",
+    "label": "Associação Pró Ensino em Santa Cruz (APESC) - Pediatria"
+  },
+  {
+    "value": "60894",
+    "label": "Centro de Pesquisas Oncológica de Santa Catarina - CEPON - SES/SC (Florianópolis) - Anestesiologia"
+  },
+  {
+    "value": "61943",
+    "label": "Centro de Pesquisas Oncológica de Santa Catarina - CEPON - SES/SC (Florianópolis) - Patologia"
+  },
+  {
+    "value": "60893",
+    "label": "Centro de Pesquisas Oncológica de Santa Catarina - CEPON - SES/SC (Florianópolis) - Radioterapia"
+  },
+  {
+    "value": "60747",
+    "label": "CMDI - Centro Médico Diagnóstico por Imagem - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "60748",
+    "label": "DIGIMAX - Hospital Universitário Santa Terezinha - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "60836",
+    "label": "Escola de Saúde Pública de Santa Catarina - ESPSC - SES/SC (Multicêntrico) - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "60730",
+    "label": "FEEVALE - Associação Pró-Ensino Superior em Novo Hamburgo (ASPEUR) - Campo Bom - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61844",
+    "label": "FEEVALE - Associação Pró-Ensino Superior em Novo Hamburgo (ASPEUR) - Novo Hamburgo - Clínica Médica"
+  },
+  {
+    "value": "60743",
+    "label": "FEEVALE - Associação Pró-Ensino Superior em Novo Hamburgo (ASPEUR) - Novo Hamburgo - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "60742",
+    "label": "FEEVALE - Associação Pró-Ensino Superior em Novo Hamburgo (ASPEUR) - Novo Hamburgo - Pediatria"
+  },
+  {
+    "value": "61371",
+    "label": "Fundação de Saúde Pública de Novo Hamburgo - FSNH - Clínica Médica"
+  },
+  {
+    "value": "60778",
+    "label": "Fundação Educacional de Brusque - FEBE - Clínica Médica"
+  },
+  {
+    "value": "61258",
+    "label": "Fundação Mário Martins - Psiquiatria"
+  },
+  {
+    "value": "60766",
+    "label": "Fundação Universitária do Oeste de Santa Catarina - Anestesiologia"
+  },
+  {
+    "value": "60768",
+    "label": "Fundação Universitária do Oeste de Santa Catarina - Cirurgia Geral"
+  },
+  {
+    "value": "60767",
+    "label": "Fundação Universitária do Oeste de Santa Catarina - Clínica Médica"
+  },
+  {
+    "value": "60769",
+    "label": "Fundação Universitária do Oeste de Santa Catarina - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61417",
+    "label": "FUNSAU - Fundação em Serviços de Saúde MS - Anestesiologia"
+  },
+  {
+    "value": "61419",
+    "label": "FUNSAU - Fundação em Serviços de Saúde MS - Cirurgia Geral"
+  },
+  {
+    "value": "61418",
+    "label": "FUNSAU - Fundação em Serviços de Saúde MS - Clínica Médica"
+  },
+  {
+    "value": "61420",
+    "label": "FUNSAU - Fundação em Serviços de Saúde MS - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61423",
+    "label": "FUNSAU - Fundação em Serviços de Saúde MS - Medicina Intensiva"
+  },
+  {
+    "value": "61421",
+    "label": "FUNSAU - Fundação em Serviços de Saúde MS - Neurologia"
+  },
+  {
+    "value": "61422",
+    "label": "FUNSAU - Fundação em Serviços de Saúde MS - Pediatria"
+  },
+  {
+    "value": "60900",
+    "label": "Grupo Hospitalar Santiago - Cirurgia Geral"
+  },
+  {
+    "value": "60899",
+    "label": "Grupo Hospitalar Santiago - Clínica Médica"
+  },
+  {
+    "value": "60963",
+    "label": "Hospital Banco de Olhos (Vagas de Residência) - Oftalmologia"
+  },
+  {
+    "value": "61108",
+    "label": "Hospital Bruno Born - Clínica Médica"
+  },
+  {
+    "value": "61110",
+    "label": "Hospital Bruno Born - Medicina Intensiva"
+  },
+  {
+    "value": "61106",
+    "label": "Hospital Bruno Born - Psiquiatria"
+  },
+  {
+    "value": "61107",
+    "label": "Hospital Bruno Born - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61099",
+    "label": "Hospital Cristo Redentor - Medicina Física e Reabilitação"
+  },
+  {
+    "value": "61100",
+    "label": "Hospital Cristo Redentor - Neurocirurgia"
+  },
+  {
+    "value": "61101",
+    "label": "Hospital Cristo Redentor - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61180",
+    "label": "Hospital da Criança Conceição (GHC) - Pediatria"
+  },
+  {
+    "value": "60834",
+    "label": "Hospital de Aeronáutica de Canoas - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61398",
+    "label": "Hospital de Amor Amazônia - Medicina Intensiva"
+  },
+  {
+    "value": "61397",
+    "label": "Hospital de Amor Amazônia - Patologia"
+  },
+  {
+    "value": "60965",
+    "label": "Hospital de Base Dr. Ary Pinheiro - Cirurgia Geral"
+  },
+  {
+    "value": "60967",
+    "label": "Hospital de Base Dr. Ary Pinheiro - Clínica Médica"
+  },
+  {
+    "value": "60969",
+    "label": "Hospital de Base Dr. Ary Pinheiro - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60966",
+    "label": "Hospital de Base Dr. Ary Pinheiro - Infectologia"
+  },
+  {
+    "value": "60964",
+    "label": "Hospital de Base Dr. Ary Pinheiro - Medicina Intensiva"
+  },
+  {
+    "value": "60974",
+    "label": "Hospital de Base Dr. Ary Pinheiro - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60968",
+    "label": "Hospital de Base Dr. Ary Pinheiro - Pediatria"
+  },
+  {
+    "value": "60970",
+    "label": "Hospital de Base Dr. Ary Pinheiro - Psiquiatria"
+  },
+  {
+    "value": "61760",
+    "label": "Hospital de Caridade e Beneficência de Cachoeira do Sul - Clínica Médica"
+  },
+  {
+    "value": "61824",
+    "label": "Hospital de Clínicas de Carazinho (UFFS) - Clínica Médica"
+  },
+  {
+    "value": "60991",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Anestesiologia"
+  },
+  {
+    "value": "60976",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Cirurgia Geral"
+  },
+  {
+    "value": "60983",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Clínica Médica"
+  },
+  {
+    "value": "60982",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60980",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Neurocirurgia"
+  },
+  {
+    "value": "60979",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Neurologia"
+  },
+  {
+    "value": "60985",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60981",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Pediatria"
+  },
+  {
+    "value": "60984",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Psiquiatria"
+  },
+  {
+    "value": "60989",
+    "label": "Hospital de Clínicas de Passo Fundo (UFFS) - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61401",
+    "label": "Hospital de Clínicas Nossa Senhora da Conceição - Cirurgia Geral"
+  },
+  {
+    "value": "61941",
+    "label": "Hospital de Laguna - Psiquiatria"
+  },
+  {
+    "value": "60831",
+    "label": "Hospital de Olhos de Blumenau - Oftalmologia"
+  },
+  {
+    "value": "60962",
+    "label": "Hospital de Olhos Dyógenes Auildo Martins Pinto (UFFS) - Oftalmologia"
+  },
+  {
+    "value": "61744",
+    "label": "Hospital de Pronto Socorro - Cirurgia Geral"
+  },
+  {
+    "value": "61186",
+    "label": "Hospital de Pronto Socorro - Medicina de Emergência"
+  },
+  {
+    "value": "61188",
+    "label": "Hospital de Pronto Socorro - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61189",
+    "label": "Hospital de Pronto Socorro - Medicina Intensiva"
+  },
+  {
+    "value": "61097",
+    "label": "Hospital Divina Providência e Hospital Independência - Medicina Intensiva"
+  },
+  {
+    "value": "61096",
+    "label": "Hospital Divina Providência e Hospital Independência - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60832",
+    "label": "Hospital e Maternidade de Jaraguá (Comunidade Evangélica de Saúde) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60833",
+    "label": "Hospital e Maternidade de Jaraguá (Comunidade Evangélica de Saúde) - Pediatria"
+  },
+  {
+    "value": "60825",
+    "label": "Hospital e Maternidade Marieta Konder Bornhausen - Itajaí - Anestesiologia"
+  },
+  {
+    "value": "60824",
+    "label": "Hospital e Maternidade Marieta Konder Bornhausen - Itajaí - Cirurgia Cardiovascular"
+  },
+  {
+    "value": "60829",
+    "label": "Hospital e Maternidade Marieta Konder Bornhausen - Itajaí - Cirurgia Geral"
+  },
+  {
+    "value": "60826",
+    "label": "Hospital e Maternidade Marieta Konder Bornhausen - Itajaí - Clínica Médica"
+  },
+  {
+    "value": "60828",
+    "label": "Hospital e Maternidade Marieta Konder Bornhausen - Itajaí - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60830",
+    "label": "Hospital e Maternidade Marieta Konder Bornhausen - Itajaí - Medicina Intensiva"
+  },
+  {
+    "value": "60827",
+    "label": "Hospital e Maternidade Marieta Konder Bornhausen - Itajaí - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61316",
+    "label": "Hospital Ernesto Dornelles - Anestesiologia"
+  },
+  {
+    "value": "61325",
+    "label": "Hospital Ernesto Dornelles - Cirurgia Geral"
+  },
+  {
+    "value": "61317",
+    "label": "Hospital Ernesto Dornelles - Clínica Médica"
+  },
+  {
+    "value": "61322",
+    "label": "Hospital Ernesto Dornelles - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61858",
+    "label": "Hospital Ernesto Dornelles - Medicina de Emergência"
+  },
+  {
+    "value": "61320",
+    "label": "Hospital Ernesto Dornelles - Medicina Intensiva"
+  },
+  {
+    "value": "61866",
+    "label": "Hospital Ernesto Dornelles - Neurocirurgia"
+  },
+  {
+    "value": "61318",
+    "label": "Hospital Ernesto Dornelles - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61179",
+    "label": "Hospital Fêmina (GHC) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61190",
+    "label": "Hospital Geral de Caxias do Sul - Cirurgia Geral"
+  },
+  {
+    "value": "61193",
+    "label": "Hospital Geral de Caxias do Sul - Clínica Médica"
+  },
+  {
+    "value": "61191",
+    "label": "Hospital Geral de Caxias do Sul - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61196",
+    "label": "Hospital Geral de Caxias do Sul - Medicina Esportiva"
+  },
+  {
+    "value": "61200",
+    "label": "Hospital Geral de Caxias do Sul - Medicina Intensiva"
+  },
+  {
+    "value": "61192",
+    "label": "Hospital Geral de Caxias do Sul - Pediatria"
+  },
+  {
+    "value": "61197",
+    "label": "Hospital Geral de Caxias do Sul - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "60876",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Anestesiologia"
+  },
+  {
+    "value": "60875",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Cirurgia Geral"
+  },
+  {
+    "value": "60874",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Clínica Médica"
+  },
+  {
+    "value": "60879",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Medicina de Emergência"
+  },
+  {
+    "value": "60873",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Neurocirurgia"
+  },
+  {
+    "value": "60865",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Neurologia"
+  },
+  {
+    "value": "60868",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Oftalmologia"
+  },
+  {
+    "value": "60869",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60870",
+    "label": "Hospital Governador Celso Ramos - HGCR - SES/SC (Florianópolis) - Otorrinolaringologia"
+  },
+  {
+    "value": "60959",
+    "label": "Hospital Infantil Dr. Jeser Amarante Faria - HJAF - SES/SC (Joinville) - Pediatria"
+  },
+  {
+    "value": "60885",
+    "label": "Hospital Infantil Joana de Gusmão (HIJG) (SES) - Pediatria"
+  },
+  {
+    "value": "61372",
+    "label": "Hospital Infantil Seara do Bem - Pediatria"
+  },
+  {
+    "value": "61185",
+    "label": "Hospital Mãe de Deus - Clínica Médica"
+  },
+  {
+    "value": "61182",
+    "label": "Hospital Mãe de Deus - Medicina Intensiva"
+  },
+  {
+    "value": "61181",
+    "label": "Hospital Mãe de Deus - Neurologia"
+  },
+  {
+    "value": "61359",
+    "label": "Hospital Mãe de Deus/SIR - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61932",
+    "label": "Hospital Maicé - Cirurgia Geral"
+  },
+  {
+    "value": "61367",
+    "label": "Hospital Maicé - Clínica Médica"
+  },
+  {
+    "value": "61933",
+    "label": "Hospital Maicé - Medicina Intensiva"
+  },
+  {
+    "value": "61250",
+    "label": "Hospital Municipal Getúlio Vargas - Cirurgia Geral"
+  },
+  {
+    "value": "61248",
+    "label": "Hospital Municipal Getúlio Vargas - Clínica Médica"
+  },
+  {
+    "value": "61247",
+    "label": "Hospital Municipal Getúlio Vargas - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61251",
+    "label": "Hospital Municipal Getúlio Vargas - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61249",
+    "label": "Hospital Municipal Getúlio Vargas - Psiquiatria"
+  },
+  {
+    "value": "60814",
+    "label": "Hospital Municipal São José - Anestesiologia"
+  },
+  {
+    "value": "60816",
+    "label": "Hospital Municipal São José - Cirurgia Geral"
+  },
+  {
+    "value": "60813",
+    "label": "Hospital Municipal São José - Clínica Médica"
+  },
+  {
+    "value": "60812",
+    "label": "Hospital Municipal São José - Medicina Intensiva"
+  },
+  {
+    "value": "60809",
+    "label": "Hospital Municipal São José - Neurologia"
+  },
+  {
+    "value": "60810",
+    "label": "Hospital Municipal São José - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60808",
+    "label": "Hospital Municipal São José - Patologia"
+  },
+  {
+    "value": "60854",
+    "label": "Hospital Nereu Ramos - HNR - SES/SC (Florianópolis) - Infectologia"
+  },
+  {
+    "value": "61173",
+    "label": "Hospital Nossa Senhora da Conceição - Anestesiologia"
+  },
+  {
+    "value": "61165",
+    "label": "Hospital Nossa Senhora da Conceição - Cirurgia Cardiovascular"
+  },
+  {
+    "value": "61164",
+    "label": "Hospital Nossa Senhora da Conceição - Cirurgia Geral"
+  },
+  {
+    "value": "61174",
+    "label": "Hospital Nossa Senhora da Conceição - Clínica Médica"
+  },
+  {
+    "value": "61167",
+    "label": "Hospital Nossa Senhora da Conceição - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61175",
+    "label": "Hospital Nossa Senhora da Conceição - Infectologia"
+  },
+  {
+    "value": "61166",
+    "label": "Hospital Nossa Senhora da Conceição - Medicina de Emergência"
+  },
+  {
+    "value": "61176",
+    "label": "Hospital Nossa Senhora da Conceição - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61178",
+    "label": "Hospital Nossa Senhora da Conceição - Medicina Intensiva"
+  },
+  {
+    "value": "61172",
+    "label": "Hospital Nossa Senhora da Conceição - Neurologia"
+  },
+  {
+    "value": "61168",
+    "label": "Hospital Nossa Senhora da Conceição - Oftalmologia"
+  },
+  {
+    "value": "61177",
+    "label": "Hospital Nossa Senhora da Conceição - Otorrinolaringologia"
+  },
+  {
+    "value": "61170",
+    "label": "Hospital Nossa Senhora da Conceição - Patologia"
+  },
+  {
+    "value": "61169",
+    "label": "Hospital Nossa Senhora da Conceição - Psiquiatria"
+  },
+  {
+    "value": "61171",
+    "label": "Hospital Nossa Senhora da Conceição - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61307",
+    "label": "Hospital Nossa Senhora das Graças - Cirurgia Geral"
+  },
+  {
+    "value": "61305",
+    "label": "Hospital Nossa Senhora das Graças - Clínica Médica"
+  },
+  {
+    "value": "61308",
+    "label": "Hospital Nossa Senhora das Graças - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61337",
+    "label": "Hospital Pompéia - Cirurgia Geral"
+  },
+  {
+    "value": "61338",
+    "label": "Hospital Pompéia - Clínica Médica"
+  },
+  {
+    "value": "61336",
+    "label": "Hospital Pompéia - Medicina Intensiva"
+  },
+  {
+    "value": "61335",
+    "label": "Hospital Pompéia - Neurocirurgia"
+  },
+  {
+    "value": "61334",
+    "label": "Hospital Pompéia - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61339",
+    "label": "Hospital Pompéia - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61313",
+    "label": "Hospital Presidente Vargas - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61312",
+    "label": "Hospital Presidente Vargas - Pediatria"
+  },
+  {
+    "value": "60805",
+    "label": "Hospital Regional Alto Vale - Anestesiologia"
+  },
+  {
+    "value": "60806",
+    "label": "Hospital Regional Alto Vale - Cirurgia Geral"
+  },
+  {
+    "value": "60804",
+    "label": "Hospital Regional Alto Vale - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61369",
+    "label": "Hospital Regional de Cacoal - Cirurgia Geral"
+  },
+  {
+    "value": "61370",
+    "label": "Hospital Regional de Cacoal - Clínica Médica"
+  },
+  {
+    "value": "61368",
+    "label": "Hospital Regional de Cacoal - Pediatria"
+  },
+  {
+    "value": "60861",
+    "label": "Hospital Regional Hans Dieter Schmidt - HRHDS - SES/SC (Joinville) - Anestesiologia"
+  },
+  {
+    "value": "61840",
+    "label": "Hospital Regional Hans Dieter Schmidt - HRHDS - SES/SC (Joinville) - Cirurgia Cardiovascular"
+  },
+  {
+    "value": "60859",
+    "label": "Hospital Regional Hans Dieter Schmidt - HRHDS - SES/SC (Joinville) - Cirurgia Geral"
+  },
+  {
+    "value": "60860",
+    "label": "Hospital Regional Hans Dieter Schmidt - HRHDS - SES/SC (Joinville) - Clínica Médica"
+  },
+  {
+    "value": "60857",
+    "label": "Hospital Regional Hans Dieter Schmidt - HRHDS - SES/SC (Joinville) - Medicina de Emergência"
+  },
+  {
+    "value": "61947",
+    "label": "Hospital Regional Hans Dieter Schmidt - HRHDS - SES/SC (Joinville) - Medicina Intensiva"
+  },
+  {
+    "value": "60864",
+    "label": "Hospital Regional Hans Dieter Schmidt - HRHDS - SES/SC (Joinville) - Psiquiatria"
+  },
+  {
+    "value": "61974",
+    "label": "Hospital Regional Homero de Miranda Gomes (HRHMG) (SES) - Anestesiologia"
+  },
+  {
+    "value": "60850",
+    "label": "Hospital Regional Homero de Miranda Gomes (HRHMG) (SES) - Cirurgia Geral"
+  },
+  {
+    "value": "61975",
+    "label": "Hospital Regional Homero de Miranda Gomes (HRHMG) (SES) - Clínica Médica"
+  },
+  {
+    "value": "61948",
+    "label": "Hospital Regional Homero de Miranda Gomes (HRHMG) (SES) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61841",
+    "label": "Hospital Regional Homero de Miranda Gomes (HRHMG) (SES) - Medicina de Emergência"
+  },
+  {
+    "value": "61949",
+    "label": "Hospital Regional Homero de Miranda Gomes (HRHMG) (SES) - Oftalmologia"
+  },
+  {
+    "value": "60846",
+    "label": "Hospital Regional Homero de Miranda Gomes (HRHMG) (SES) - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60731",
+    "label": "Hospital Santa Casa de Caridade de Bagé - Clínica Médica"
+  },
+  {
+    "value": "60790",
+    "label": "Hospital Santa Catarina de Blumenau - Cirurgia Geral"
+  },
+  {
+    "value": "60787",
+    "label": "Hospital Santa Catarina de Blumenau - Clínica Médica"
+  },
+  {
+    "value": "60785",
+    "label": "Hospital Santa Catarina de Blumenau - Neurologia"
+  },
+  {
+    "value": "60789",
+    "label": "Hospital Santa Catarina de Blumenau - Psiquiatria"
+  },
+  {
+    "value": "60788",
+    "label": "Hospital Santa Catarina de Blumenau - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61739",
+    "label": "Hospital Santa Cecília - Cirurgia Cardiovascular"
+  },
+  {
+    "value": "60727",
+    "label": "Hospital Santa Cecília - Cirurgia Geral"
+  },
+  {
+    "value": "60728",
+    "label": "Hospital Santa Cecília - Clínica Médica"
+  },
+  {
+    "value": "61737",
+    "label": "Hospital Santa Cecília - Medicina Intensiva"
+  },
+  {
+    "value": "61738",
+    "label": "Hospital Santa Cecília - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60729",
+    "label": "Hospital Santa Cecília - Pediatria"
+  },
+  {
+    "value": "61733",
+    "label": "Hospital Santa Clara - Pequeno Anjo - Pediatria"
+  },
+  {
+    "value": "60802",
+    "label": "Hospital Santa Isabel Blumenau - Cirurgia Cardiovascular"
+  },
+  {
+    "value": "60801",
+    "label": "Hospital Santa Isabel Blumenau - Cirurgia Geral"
+  },
+  {
+    "value": "60798",
+    "label": "Hospital Santa Isabel Blumenau - Clínica Médica"
+  },
+  {
+    "value": "60799",
+    "label": "Hospital Santa Isabel Blumenau - Medicina Intensiva"
+  },
+  {
+    "value": "60794",
+    "label": "Hospital Santa Isabel Blumenau - Neurocirurgia"
+  },
+  {
+    "value": "60795",
+    "label": "Hospital Santa Isabel Blumenau - Neurologia"
+  },
+  {
+    "value": "60792",
+    "label": "Hospital Santa Isabel Blumenau - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "60740",
+    "label": "Hospital Santa Teresa - HST - SES/SC (São Pedro de Alcântara) - Dermatologia"
+  },
+  {
+    "value": "61872",
+    "label": "Hospital Santa Terezinha de Erechim - Anestesiologia"
+  },
+  {
+    "value": "61380",
+    "label": "Hospital Santa Terezinha de Erechim - Cirurgia Geral"
+  },
+  {
+    "value": "61381",
+    "label": "Hospital Santa Terezinha de Erechim - Clínica Médica"
+  },
+  {
+    "value": "61382",
+    "label": "Hospital Santa Terezinha de Erechim - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61383",
+    "label": "Hospital Santa Terezinha de Erechim - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61384",
+    "label": "Hospital Santa Terezinha de Erechim - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61385",
+    "label": "Hospital Santa Terezinha de Erechim - Pediatria"
+  },
+  {
+    "value": "61873",
+    "label": "Hospital Santa Terezinha de Erechim - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "60756",
+    "label": "Hospital Santo Antônio Blumenau - Cirurgia Geral"
+  },
+  {
+    "value": "60757",
+    "label": "Hospital Santo Antônio Blumenau - Clínica Médica"
+  },
+  {
+    "value": "60751",
+    "label": "Hospital Santo Antônio Blumenau - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60749",
+    "label": "Hospital Santo Antônio Blumenau - Medicina Intensiva"
+  },
+  {
+    "value": "60754",
+    "label": "Hospital Santo Antônio Blumenau - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60755",
+    "label": "Hospital Santo Antônio Blumenau - Pediatria"
+  },
+  {
+    "value": "60750",
+    "label": "Hospital Santo Antônio Blumenau - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61202",
+    "label": "Hospital São José - Arroio do Meio - Psiquiatria"
+  },
+  {
+    "value": "60762",
+    "label": "Hospital São José Criciúma - Anestesiologia"
+  },
+  {
+    "value": "60763",
+    "label": "Hospital São José Criciúma - Cirurgia Geral"
+  },
+  {
+    "value": "60760",
+    "label": "Hospital São José Criciúma - Clínica Médica"
+  },
+  {
+    "value": "60761",
+    "label": "Hospital São José Criciúma - Medicina Intensiva"
+  },
+  {
+    "value": "60759",
+    "label": "Hospital São José Criciúma - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61360",
+    "label": "Hospital São Julião - Associação de Auxílio e Recuperação Hansenianos - Clínica Médica"
+  },
+  {
+    "value": "61361",
+    "label": "Hospital São Julião - Associação de Auxílio e Recuperação Hansenianos - Oftalmologia"
+  },
+  {
+    "value": "61774",
+    "label": "Hospital São Lucas da PUCRS - Anestesiologia"
+  },
+  {
+    "value": "61776",
+    "label": "Hospital São Lucas da PUCRS - Cirurgia Cardiovascular"
+  },
+  {
+    "value": "61777",
+    "label": "Hospital São Lucas da PUCRS - Cirurgia Geral"
+  },
+  {
+    "value": "61775",
+    "label": "Hospital São Lucas da PUCRS - Clínica Médica"
+  },
+  {
+    "value": "61778",
+    "label": "Hospital São Lucas da PUCRS - Dermatologia"
+  },
+  {
+    "value": "61788",
+    "label": "Hospital São Lucas da PUCRS - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61779",
+    "label": "Hospital São Lucas da PUCRS - Infectologia"
+  },
+  {
+    "value": "61782",
+    "label": "Hospital São Lucas da PUCRS - Medicina de Emergência"
+  },
+  {
+    "value": "61781",
+    "label": "Hospital São Lucas da PUCRS - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61783",
+    "label": "Hospital São Lucas da PUCRS - Medicina Física e Reabilitação"
+  },
+  {
+    "value": "61780",
+    "label": "Hospital São Lucas da PUCRS - Medicina Intensiva"
+  },
+  {
+    "value": "61784",
+    "label": "Hospital São Lucas da PUCRS - Neurocirurgia"
+  },
+  {
+    "value": "61785",
+    "label": "Hospital São Lucas da PUCRS - Neurologia"
+  },
+  {
+    "value": "61786",
+    "label": "Hospital São Lucas da PUCRS - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61787",
+    "label": "Hospital São Lucas da PUCRS - Otorrinolaringologia"
+  },
+  {
+    "value": "61789",
+    "label": "Hospital São Lucas da PUCRS - Psiquiatria"
+  },
+  {
+    "value": "61790",
+    "label": "Hospital São Lucas da PUCRS - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61160",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Anestesiologia"
+  },
+  {
+    "value": "61142",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Cirurgia Geral"
+  },
+  {
+    "value": "61143",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Clínica Médica"
+  },
+  {
+    "value": "61145",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Dermatologia"
+  },
+  {
+    "value": "61156",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61150",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Medicina Intensiva"
+  },
+  {
+    "value": "61152",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Neurologia"
+  },
+  {
+    "value": "61154",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Oftalmologia"
+  },
+  {
+    "value": "61153",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61155",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Otorrinolaringologia"
+  },
+  {
+    "value": "61157",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Pediatria"
+  },
+  {
+    "value": "61158",
+    "label": "Hospital São Vicente de Paulo (UFFS) - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61163",
+    "label": "Hospital São Vicente de Paulo de Cruz Alta - Clínica Médica"
+  },
+  {
+    "value": "60841",
+    "label": "Hospital Tereza Ramos - HTR - SES/SC (Lages) - Cirurgia Geral"
+  },
+  {
+    "value": "60842",
+    "label": "Hospital Tereza Ramos - HTR - SES/SC (Lages) - Clínica Médica"
+  },
+  {
+    "value": "60776",
+    "label": "Hospital Unimed - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "60775",
+    "label": "Hospital Unimed - Pediatria"
+  },
+  {
+    "value": "61201",
+    "label": "Hospital Universitário de Canoas - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60735",
+    "label": "Hospital Virvi Ramos - Cirurgia Geral"
+  },
+  {
+    "value": "60736",
+    "label": "Hospital Virvi Ramos - Clínica Médica"
+  },
+  {
+    "value": "60734",
+    "label": "Hospital Virvi Ramos - Medicina Intensiva"
+  },
+  {
+    "value": "61256",
+    "label": "Instituto de Cardiologia (ICSC) (SES) - Cirurgia Cardiovascular"
+  },
+  {
+    "value": "60835",
+    "label": "Instituto de Psiquiatria - IPQ - SES/SC (São José) - Psiquiatria"
+  },
+  {
+    "value": "60992",
+    "label": "Instituto Ivo Corrêa Meyer - Oftalmologia"
+  },
+  {
+    "value": "61734",
+    "label": "Maternidade Cândido Mariano -Associação de Amparo à Maternidade e a Infância – AAMI - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60837",
+    "label": "Maternidade Carmela Dutra - MCD - SES/SC (Florianópolis) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60840",
+    "label": "Maternidade Darcy Vargas - MDV - SES/SC (Joinville) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61742",
+    "label": "Maternidade Municipal Mãe Esperança de Porto Velho - Rondônia - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61908",
+    "label": "Nossa Senhora do Prazeres (Sociedade Mãe da Divina Providência) - Medicina Intensiva"
+  },
+  {
+    "value": "60764",
+    "label": "Nossa Senhora do Prazeres (Sociedade Mãe da Divina Providência) - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60765",
+    "label": "Prefeitura Municipal de Jaragua do Sul / Fundo Municipal de Saúde - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61119",
+    "label": "Santa Casa de Alegrete - Clínica Médica"
+  },
+  {
+    "value": "61246",
+    "label": "Santa Casa de Pelotas - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61243",
+    "label": "Santa Casa de Rio Grande - Cirurgia Geral"
+  },
+  {
+    "value": "61732",
+    "label": "Santa Casa de Rio Grande - Clínica Médica"
+  },
+  {
+    "value": "61245",
+    "label": "Santa Casa de Rio Grande - Medicina Intensiva"
+  },
+  {
+    "value": "61244",
+    "label": "Santa Casa de Rio Grande - Psiquiatria"
+  },
+  {
+    "value": "61084",
+    "label": "Secretaria Municipal de Saúde de Alegrete - Psiquiatria"
+  },
+  {
+    "value": "60739",
+    "label": "Secretária Municipal de Saúde de Joinville - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61095",
+    "label": "Secretaria Municipal de Saúde de São Lourenço do Sul - Psiquiatria"
+  },
+  {
+    "value": "60770",
+    "label": "Secretaria Municipal de Saúde Florianópolis - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "60772",
+    "label": "Secretaria Municipal de Saúde Florianópolis - Psiquiatria"
+  },
+  {
+    "value": "61942",
+    "label": "Sociedade Sulina Divina Providência - Estrela - Clínica Médica"
+  },
+  {
+    "value": "61098",
+    "label": "Sociedade Sulina Divina Providência - Porto Alegre - Clínica Médica"
+  },
+  {
+    "value": "61094",
+    "label": "Tomoclínica - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61430",
+    "label": "UNIMED de Joinville - Centro Hospitalar Unimed - Medicina Intensiva"
+  },
+  {
+    "value": "61726",
+    "label": "UNISINOS - Gravataí - Cirurgia Geral"
+  },
+  {
+    "value": "61727",
+    "label": "UNISINOS - Gravataí - Clínica Médica"
+  },
+  {
+    "value": "61728",
+    "label": "UNISINOS - Gravataí - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61730",
+    "label": "UNISINOS - Gravataí - Medicina Intensiva"
+  },
+  {
+    "value": "61731",
+    "label": "UNISINOS - Gravataí - Pediatria"
+  },
+  {
+    "value": "61809",
+    "label": "UNISINOS - Medicina da Família e Comunidade - Gravataí - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61810",
+    "label": "UNISINOS - Medicina da Família e Comunidade - Nova Petrópolis - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61429",
+    "label": "UNISINOS - Porto Alegre - Anestesiologia"
+  },
+  {
+    "value": "61729",
+    "label": "UNISINOS - São Leopoldo - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61217",
+    "label": "Universidade Católica de Pelotas - Cirurgia Geral"
+  },
+  {
+    "value": "61218",
+    "label": "Universidade Católica de Pelotas - Clínica Médica"
+  },
+  {
+    "value": "61214",
+    "label": "Universidade Católica de Pelotas - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61216",
+    "label": "Universidade Católica de Pelotas - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61219",
+    "label": "Universidade Católica de Pelotas - Medicina Intensiva"
+  },
+  {
+    "value": "61215",
+    "label": "Universidade Católica de Pelotas - Pediatria"
+  },
+  {
+    "value": "60746",
+    "label": "Universidade do Extremo Sul Catarinense (UNESC) - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60744",
+    "label": "Universidade do Extremo Sul Catarinense (UNESC) - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "60745",
+    "label": "Universidade do Extremo Sul Catarinense (UNESC) - Pediatria"
+  },
+  {
+    "value": "61123",
+    "label": "Universidade do Vale do Taquari - UNIVATES - Clínica Médica"
+  },
+  {
+    "value": "61125",
+    "label": "Universidade do Vale do Taquari - UNIVATES - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61122",
+    "label": "Universidade do Vale do Taquari - UNIVATES - Medicina de Emergência"
+  },
+  {
+    "value": "61124",
+    "label": "Universidade do Vale do Taquari - UNIVATES - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "60781",
+    "label": "Universidade Federal da Fronteira Sul - Anestesiologia"
+  },
+  {
+    "value": "60780",
+    "label": "Universidade Federal da Fronteira Sul - Cirurgia Geral"
+  },
+  {
+    "value": "60783",
+    "label": "Universidade Federal da Fronteira Sul - Clínica Médica"
+  },
+  {
+    "value": "60782",
+    "label": "Universidade Federal da Fronteira Sul - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "60784",
+    "label": "Universidade Federal da Fronteira Sul - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "60779",
+    "label": "Universidade Federal da Fronteira Sul - Pediatria"
+  },
+  {
+    "value": "61204",
+    "label": "Universidade Federal de Pelotas - Clínica Médica"
+  },
+  {
+    "value": "61206",
+    "label": "Universidade Federal de Pelotas - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61208",
+    "label": "Universidade Federal de Pelotas - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61205",
+    "label": "Universidade Federal de Pelotas - Pediatria"
+  },
+  {
+    "value": "61207",
+    "label": "Universidade Federal de Pelotas - Psiquiatria"
+  },
+  {
+    "value": "61224",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Acupuntura"
+  },
+  {
+    "value": "61225",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Anestesiologia"
+  },
+  {
+    "value": "61239",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Cirurgia Geral"
+  },
+  {
+    "value": "61237",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Clínica Médica"
+  },
+  {
+    "value": "61236",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Dermatologia"
+  },
+  {
+    "value": "61221",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61231",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Medicina Intensiva"
+  },
+  {
+    "value": "61226",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Neurologia"
+  },
+  {
+    "value": "61223",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Patologia"
+  },
+  {
+    "value": "61227",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Pediatria"
+  },
+  {
+    "value": "61228",
+    "label": "Universidade Federal de Santa Catarina - UFSC - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61268",
+    "label": "Universidade Federal de Santa Maria - Anestesiologia"
+  },
+  {
+    "value": "61294",
+    "label": "Universidade Federal de Santa Maria - Cirurgia Geral"
+  },
+  {
+    "value": "61280",
+    "label": "Universidade Federal de Santa Maria - Clínica Médica"
+  },
+  {
+    "value": "61270",
+    "label": "Universidade Federal de Santa Maria - Dermatologia"
+  },
+  {
+    "value": "61272",
+    "label": "Universidade Federal de Santa Maria - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61267",
+    "label": "Universidade Federal de Santa Maria - Infectologia"
+  },
+  {
+    "value": "61297",
+    "label": "Universidade Federal de Santa Maria - Medicina de Emergência"
+  },
+  {
+    "value": "61269",
+    "label": "Universidade Federal de Santa Maria - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61284",
+    "label": "Universidade Federal de Santa Maria - Medicina Intensiva"
+  },
+  {
+    "value": "61271",
+    "label": "Universidade Federal de Santa Maria - Ortopedia e Traumatologia"
+  },
+  {
+    "value": "61273",
+    "label": "Universidade Federal de Santa Maria - Otorrinolaringologia"
+  },
+  {
+    "value": "61274",
+    "label": "Universidade Federal de Santa Maria - Pediatria"
+  },
+  {
+    "value": "61275",
+    "label": "Universidade Federal de Santa Maria - Psiquiatria"
+  },
+  {
+    "value": "61278",
+    "label": "Universidade Federal de Santa Maria - Radiologia e Diagnóstico por Imagem"
+  },
+  {
+    "value": "61085",
+    "label": "Universidade Franciscana - Clínica Médica"
+  },
+  {
+    "value": "61088",
+    "label": "Universidade Franciscana - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61090",
+    "label": "Universidade Franciscana - Medicina Intensiva"
+  },
+  {
+    "value": "61087",
+    "label": "Universidade Franciscana - Psiquiatria"
+  },
+  {
+    "value": "61333",
+    "label": "Universidade Luterana do Brasil - Cirurgia Geral"
+  },
+  {
+    "value": "61331",
+    "label": "Universidade Luterana do Brasil - Clínica Médica"
+  },
+  {
+    "value": "61332",
+    "label": "Universidade Luterana do Brasil - Ginecologia e Obstetrícia"
+  },
+  {
+    "value": "61328",
+    "label": "Universidade Luterana do Brasil - Medicina de Família e Comunidade"
+  },
+  {
+    "value": "61330",
+    "label": "Universidade Luterana do Brasil - Otorrinolaringologia"
+  },
+  {
+    "value": "61329",
+    "label": "Universidade Luterana do Brasil - Pediatria"
+  }
+]
