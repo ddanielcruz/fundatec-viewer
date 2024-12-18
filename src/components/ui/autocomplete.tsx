@@ -24,11 +24,30 @@ export function Autocomplete<T>({
 }: AutocompleteProps<T>) {
   const [inputValue, setInputValue] = React.useState(displayValue(value));
   const [suggestions, setSuggestions] = React.useState<T[]>([]);
+  const [highlightedIndex, setHighlightedIndex] = React.useState<number>(-1);
+  const suggestionsContainerRef = React.useRef<HTMLDivElement | null>(null);
 
   // Update input value when value prop changes
   React.useEffect(() => {
     setInputValue(displayValue(value));
   }, [value, displayValue]);
+
+  // Handle scrolling of highlighted item into view
+  React.useEffect(() => {
+    if (highlightedIndex === -1 || !suggestionsContainerRef.current) return;
+
+    const container = suggestionsContainerRef.current;
+    const highlightedElement = container.querySelector(
+      '[data-suggestion-index="' + highlightedIndex + '"]',
+    ) as HTMLElement;
+
+    if (highlightedElement) {
+      highlightedElement.scrollIntoView({
+        behavior: 'instant',
+        block: 'nearest',
+      });
+    }
+  }, [highlightedIndex]);
 
   const getSuggestions = (input: string) => {
     const inputValue = input.trim().toLowerCase();
@@ -46,10 +65,15 @@ export function Autocomplete<T>({
 
   const onSuggestionsClearRequested = () => {
     setSuggestions([]);
+    setHighlightedIndex(-1);
   };
 
   const onSuggestionSelected = (_event: React.FormEvent, { suggestion }: { suggestion: T }) => {
     onChange(suggestion);
+  };
+
+  const onSuggestionHighlighted = ({ suggestion }: { suggestion: T }) => {
+    setHighlightedIndex(suggestions.indexOf(suggestion));
   };
 
   return (
@@ -58,7 +82,19 @@ export function Autocomplete<T>({
       onSuggestionsFetchRequested={onSuggestionsFetchRequested}
       onSuggestionsClearRequested={onSuggestionsClearRequested}
       onSuggestionSelected={onSuggestionSelected}
+      onSuggestionHighlighted={onSuggestionHighlighted}
       getSuggestionValue={displayValue}
+      renderSuggestionsContainer={({ containerProps, children }) => (
+        <div
+          {...containerProps}
+          ref={(element) => {
+            containerProps.ref(element);
+            suggestionsContainerRef.current = element;
+          }}
+        >
+          {children}
+        </div>
+      )}
       renderSuggestion={(suggestion) => (
         <div className="px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground">
           {displayValue(suggestion)}
@@ -79,12 +115,12 @@ export function Autocomplete<T>({
         ),
       }}
       theme={{
-        container: 'relative',
+        container: 'relative w-full',
         containerOpen: 'z-50',
         suggestionsContainer: 'absolute w-full',
         suggestionsContainerOpen:
           'mt-2 rounded-md border bg-popover text-popover-foreground shadow-md outline-none animate-in fade-in-0 zoom-in-95',
-        suggestionsList: 'max-h-[200px] overflow-auto p-1',
+        suggestionsList: 'max-h-[200px] overflow-auto scroll-smooth p-1',
         suggestion: 'cursor-pointer rounded-sm',
         suggestionHighlighted: 'bg-accent text-accent-foreground',
       }}

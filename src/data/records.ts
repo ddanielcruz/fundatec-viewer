@@ -22,6 +22,7 @@ export class RecordsRepository {
   private records: Record[] = [];
   private specialtyIndex: Map<string, Record[]> = new Map();
   private nameIndex: Map<string, Record[]> = new Map();
+  private names: string[] = [];
 
   constructor() {
     for (const recordJson of recordsData as RecordJSON[]) {
@@ -40,7 +41,13 @@ export class RecordsRepository {
         record,
       ]);
       this.nameIndex.set(record.name, [...(this.nameIndex.get(record.name) || []), record]);
+
+      if (!this.names.includes(record.name)) {
+        this.names.push(record.name);
+      }
     }
+
+    this.names.sort();
   }
 
   findBySpecialty(specialty: string): Record[] {
@@ -66,7 +73,7 @@ export class RecordsRepository {
   }
 
   getAllNames(): string[] {
-    return Array.from(this.nameIndex.keys()).sort();
+    return this.names;
   }
 
   getRecordsCount(): number {
