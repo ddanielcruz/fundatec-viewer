@@ -1,5 +1,6 @@
 import { useState } from 'react';
 
+import { CandidateTable } from './components/candidate-table';
 import { RecordsTable } from './components/records-table';
 import { ThemeToggle } from './components/theme/theme-toggle';
 import { Autocomplete } from './components/ui/autocomplete';
@@ -15,9 +16,17 @@ export function App() {
   const [selectedName, setSelectedName] = useState<string | null>(null);
   const { getAllNames } = useRecords();
 
-  function handleRecordClick(record: Record) {
+  function handleSpecialtyClick(record: Record) {
     setSelectedName(record.name);
     setSelectedMode('name');
+  }
+
+  function handleNameClick(record: Record) {
+    setSelectedSpecialty({
+      id: record.specialtyId,
+      name: record.specialtyName,
+    });
+    setSelectedMode('specialty');
   }
 
   return (
@@ -26,7 +35,7 @@ export function App() {
       value={selectedMode}
       onValueChange={setSelectedMode}
     >
-      <header className="border-border px-3 md:rounded-md md:border">
+      <header className="border-border bg-background px-3 dark:bg-muted md:rounded-md md:border">
         <div className="flex h-16 flex-1 items-center justify-between gap-4">
           <div className="flex flex-1 gap-3">
             <TabsList className="w-full sm:w-fit">
@@ -87,20 +96,18 @@ export function App() {
       </header>
 
       <main>
-        <ScrollArea className="h-[calc(100svh-7.5rem)] w-full border border-border md:h-[calc(100svh-8.5rem)] md:rounded-md">
+        <ScrollArea className="h-[calc(100svh-7.5rem)] w-full border border-border bg-background dark:bg-muted md:h-[calc(100vh-7.15rem)] md:rounded-md">
           <ScrollBar orientation="horizontal" />
           <TabsContent value="specialty">
-            {selectedSpecialty ? (
-              <RecordsTable specialty={selectedSpecialty.id} onRecordClick={handleRecordClick} />
-            ) : (
-              <div className="flex h-[calc(100svh-5rem)] items-center justify-center md:h-[calc(100svh-9.5rem)]">
-                <span className="text-center text-muted-foreground">
-                  Selecione uma especialidade para ver os resultados.
-                </span>
-              </div>
+            {!!selectedSpecialty && (
+              <RecordsTable specialty={selectedSpecialty.id} onRecordClick={handleSpecialtyClick} />
             )}
           </TabsContent>
-          <TabsContent value="name"></TabsContent>
+          <TabsContent value="name">
+            {!!selectedName && (
+              <CandidateTable name={selectedName} onRecordClick={handleNameClick} />
+            )}
+          </TabsContent>
         </ScrollArea>
       </main>
     </Tabs>

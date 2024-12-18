@@ -1,8 +1,10 @@
 import recordsData from './records.json';
+import { specialties } from './specialties';
 
 export type Record = {
   name: string;
-  specialty: string;
+  specialtyId: string;
+  specialtyName: string;
   examScore: number;
   finalScore: number;
   governmentProgram: boolean;
@@ -25,10 +27,16 @@ export class RecordsRepository {
   private names: string[] = [];
 
   constructor() {
+    const specialtiesMap = new Map<string, string>();
+    for (const specialty of specialties) {
+      specialtiesMap.set(specialty.id, specialty.name);
+    }
+
     for (const recordJson of recordsData as RecordJSON[]) {
       const record: Record = {
         name: recordJson.name,
-        specialty: recordJson.specialty,
+        specialtyId: recordJson.specialty,
+        specialtyName: specialtiesMap.get(recordJson.specialty) || '',
         examScore: recordJson.notaTO,
         finalScore: recordJson.notaFinal,
         governmentProgram: recordJson.programaGoverno,
@@ -36,8 +44,8 @@ export class RecordsRepository {
       };
 
       this.records.push(record);
-      this.specialtyIndex.set(record.specialty, [
-        ...(this.specialtyIndex.get(record.specialty) || []),
+      this.specialtyIndex.set(record.specialtyId, [
+        ...(this.specialtyIndex.get(record.specialtyId) || []),
         record,
       ]);
       this.nameIndex.set(record.name, [...(this.nameIndex.get(record.name) || []), record]);
